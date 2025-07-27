@@ -1,0 +1,102 @@
+
+         body{
+            background-image: url(https://wallpaperaccess.com/full/3861599.jpg);
+            margin: 0;
+      padding: 0;
+      
+      overflow: hidden;
+      
+      background-size: cover;
+      color: white;
+    }
+
+   
+        
+        .Tbox {
+            color: rgb(209, 247, 247);
+            height:550px;
+            width: 50%;
+            border: 2px solid navy;
+            float: left;
+            padding: 3px;
+            margin-right: 30px;
+            margin-left: 30px;
+            text-align: center;
+            align-items: center;
+            box-shadow: 0 4px 20px lightskyblue;
+            border-radius: 18px;
+            margin-top: 100px;
+            font-size: large;
+            
+        }
+        .Tbox a{
+          text-decoration: none;
+        }
+        .Tbox a:hover {
+          text-decoration: underline;
+        }
+        .img img {
+            margin-top: 100px;
+            height: 450px;
+            width: 40%;
+            border: 2px solid navy;
+            padding: 0;
+            text-align: center;
+            margin-right: 30px;
+            box-shadow: 0 4px 20px lightskyblue;
+            border-radius: 18px;
+          z-index: 2;
+          float:none ;
+        }
+        .tab{
+          margin-left:auto;
+          margin-right:300px;
+        }
+        .tab {
+     position: relative;
+     padding: 25px 30px; 
+    /* background: linear-gradient(45deg, #0b0c2a,#0b0c2a);*/ 
+     color: white; 
+     border: none; 
+     border-radius: 50px; 
+     /*font-size: 1.1rem;*/ 
+     cursor: pointer; 
+     box-shadow: 0 0 10px #fff, 0 0 25px #1e90ff, 0 0 35px #4169e1; 
+     transition: all 0.4s ease; 
+     overflow: hidden;
+     width: 100px;
+     height: 30px;
+     
+     
+    }
+
+.tab::before 
+{ content: ''; 
+position: absolute; 
+top: -50%; 
+left: -50%; 
+width: 200%; 
+height: 200%; 
+background: conic-gradient(from 0deg,#87cefa, #4682b4, #4169e1, #87cefa); 
+animation: spin 3s linear infinite; 
+z-index: 0; filter: blur(15px); 
+}
+
+.tab a {
+     position: relative; 
+     z-index: 1;
+     color: #fff;
+     font-size: large;
+     text-decoration: none;
+     }
+
+.tab:hover { 
+    transform: scale(1.1); 
+    box-shadow: 0 0 20px #fff, 0 0 40px #1e90ff;
+    
+ }
+
+@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+/* Magic sparkles */ @keyframes sparkle { 0%, 100% { opacity: 0.5; transform: translateY(0); } 50% { opacity: 1; transform: translateY(-10px); } }
+        
