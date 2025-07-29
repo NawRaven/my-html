@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spell</title>
+     
+<link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background:#0b0c2a;
+            margin: 0;
+           
+           background-size: cover; 
+            position:relative ;
+
+            
+        }
+       
+        .container{
+            
+            display: grid;
+           grid-template-columns: repeat(4,auto);
+           justify-content: center;
+            gap: 25px;
+            margin-top:100px;
+            flex-wrap: wrap;
+            font-size: medium;
+            text-emphasis-color: silver;
+         
+        }
+        h1 {
+            
+            font-family: "Tangerine";
+            text-align: center;
+            font-size: 70px;
+        }
+        .one{
+            
+            border: 3.9px double #ffffff; /* white border */
+  border-radius: 15px;       /* rounded corners */
+  
+  background-color: #08072d; /* background color */
+  color: #ffffff;
+  
+  width: 200px;
+  text-align: center;
+  font-family: "Tangerine";
+  transition: transform 0.3s ease-in-out;
+  height: 240px;
+}
+
+.one:hover {
+  transform: scale(1.05); 
+box-shadow: 0 4px 20px rgba(255, 255, 255, 0.6);
+} 
+        .one img{
+             width: 176px;
+             height: 120px;
+            border-radius: 8px;
+           padding-top: 5px;
+            
+
+        }
+        .two{
+            border: 3.9px double #ffffff; /* white border */
+  border-radius: 15px;       /* rounded corners */
+  
+  background-color: #08072d; /* background color */
+  color: #ffffff;
+ 
+  width: 200px;
+  text-align: center;
+  font-family: "Tangerine";
+  transition: transform 0.3s ease-in-out;
+  height: 240px;
+        }
+        .two:hover{
+            transform: scale(1.05); /* zoom effect on hover */
+box-shadow: 0 4px 20px rgba(255, 255, 255, 0.6); /* glowing sh */
+        }
+        .two img{
+             width: 175px;
+             height: 120px;
+            border-radius: 8%;
+            padding-top: 5px;
+
+        }
+        .three{
+            border:  3.9px double #ffffff; /* white border */
+  border-radius: 15px;       /* rounded corners */
+  
+  background-color: #08072d; /* background color */
+  color: #ffffff;
+  
+  width: 200px;
+  text-align: center;
+  
+  font-family: "Tangerine";
+  transition: transform 0.3s ease-in-out;
+  height: 240px;
+        }
+        .three:hover{
+transform: scale(1.05); /* zoom effect on hover */
+box-shadow: 0 4px 20px rgba(255, 255, 255, 0.6); /* glowing sh */
+        }
+        .three img{
+             width: 175px;
+             height: 120px;
+            border-radius: 8%;
+           padding-top: 5px;
+
+
+        }
+        .four{
+            border:  3.9px double #ffffff; /* white border */
+  border-radius: 15px;       /* rounded corners */
+  
+  background-color: #08072d; /* background color */
+  color: #ffffff;
+  
+  width: 200px;
+  text-align: center;
+  
+  font-family:"Tangerine";
+  transition: transform 0.3s ease-in-out;
+  height: 240px;
+        }
+        .four:hover{
+            transform: scale(1.05); /* zoom effect on hover */
+box-shadow: 0 4px 20px rgba(255, 255, 255, 0.6); /* glowing sh */
+
+        }
+        .four img{
+             width: 175px;
+             height: 120px;
+            border-radius: 8%;
+           padding-top: 5px;
+
+
+        }
+        .five{
+            border:  3.9px double #ffffff; /* white border */
+  border-radius: 15px;       /* rounded corners */
+  
+  background-color: #08072d; /* background color */
+  color: #ffffff;
+  
+  width: 200px;
+  text-align: center;
+  font-family: "Tangerine";
+  transition: transform 0.3s ease-in-out;
+  height: 240px;
+        }
+        .five:hover{
+            transform: scale(1.05); /* zoom effect on hover */
+box-shadow: 0 4px 20px rgba(255, 255, 255, 0.6); /* glowing sh */
+        }
+        .five img{
+             width: 175px;
+             height: 120px;
+            border-radius: 8%;
+            padding-top: 5px;
+
+        }
+        .six{
+            border:  3.9px double#ffffff; /* white border */
+  border-radius: 15px;       /* rounded corners */
+  
+  background-color: #08072d; /* background color */
+  color: #ffffff;
+ 
+  width: 200px;
+  text-align: center;
+  font-family: "Tangerine";
+  transition: transform 0.3s ease-in-out;
+  height: 240px;
+        }
+        .six:hover{
+            transform: scale(1.05); /* zoom effect on hover */
+box-shadow: 0 4px 20px rgba(255, 255, 255, 0.6); /* glowing sh */
+        }
+        .six img{
+             width: 175px;
+             height: 120px;
+            border-radius: 8%;
+            padding-top: 5px;
+
+        }
+        .seven{
+             border:  3.9px double #ffffff; /* white border */
+  border-radius: 15px;       /* rounded corners */
+  
+  background-color: #08072d; /* background color */
+  color: #ffffff;
+ 
+  width: 200px;
+  text-align: center;
+ font-family: "Tangerine";
+  transition: transform 0.3s ease-in-out;
+  height: 240px;
+        }
+        .seven:hover{
+           transform: scale(1.05); /* zoom effect on hover */
+box-shadow: 0 4px 20px rgba(255, 255, 255, 0.6); /* glowing sh */ 
+        }
+        .seven img{
+             width: 175px;
+             height: 120px;
+            border-radius: 8%;
+            padding-top: 5px;
+        }
+        .eight{
+           border:  3.9px double #ffffff; /* white border */
+  border-radius: 15px;       /* rounded corners */
+  
+  background-color: #08072d; /* background color */
+  color: #ffffff;
+ 
+  width: 200px;
+  text-align: center;
+  font-family: "Tangerine";
+  transition: transform 0.3s ease-in-out;
+  height: 240px; 
+        }
+        .eight:hover{
+            transform: scale(1.05); /* zoom effect on hover */
+box-shadow: 0 4px 20px rgba(255, 255, 255, 0.6); /* glowing sh */ 
+        }
+        .eight img{
+             width: 175px;
+             height: 120px;
+            border-radius: 8%;
+            padding-top: 5px;
+
+        }
+        .nine{
+            border:  3.9px double #ffffff; /* white border */
+  border-radius: 15px;       /* rounded corners */
+ 
+  background-color:#08072d; /* background color */
+  color: #ffffff;
+  
+  width: 200px;
+  text-align: center;
+  font-family: "Tangerine";
+  transition: transform 0.3s ease-in-out;
+  height: 240px;  
+        }
+        .nine:hover{
+          transform: scale(1.05); 
+box-shadow: 0 4px 20px rgba(255, 255, 255, 0.6);  
+        }
+        .nine img{
+             width: 175px;
+             height: 120px;
+            border-radius: 8%;
+            padding-top: 5px;
+
+        }
+        .ten{
+            border:  3.9px double #ffffff; /* white border */
+  border-radius: 15px;       /* rounded corners */
+  
+  background-color: #08072d; /* background color */
+  color: #ffffff;
+  
+  width: 200px;
+  text-align: center;
+  font-family:"Tangerine";
+  transition: transform 0.3s ease-in-out;
+  height: 240px;   
+        }
+        .ten:hover{
+            transform: scale(1.05); /* zoom effect on hover */
+box-shadow: 0 4px 20px rgba(255, 255, 255, 0.6); /* glowing sh */ 
+        }
+        .ten img{
+             width: 175px;
+             height: 120px;
+            border-radius: 8%;
+            padding-top: 5px;
+
+        }
+        .eleven{
+            border:  3.9px double #ffffff; /* white border */
+  border-radius: 15px;       /* rounded corners */
+  
+  background-color: #08072d; /* background color */
+  color: #ffffff;
+  
+  width: 200px;
+  text-align: center;
+  font-family:"Tangerine";
+  transition: transform 0.3s ease-in-out;
+  height: 240px;   
+        }
+        .eleven:hover{
+            transform: scale(1.05); /* zoom effect on hover */
+box-shadow: 0 4px 20px rgba(255, 255, 255, 0.6); /* glowing sh */ 
+        }
+        .eleven img{
+             width: 175px;
+             height: 120px;
+            border-radius: 8%;
+            padding-top: 5px;
+
+        }
+        .twelve{
+            border:  3.9px double #ffffff; /* white border */
+  border-radius: 15px;       /* rounded corners */
+  
+  background-color: #08072d; /* background color */
+  color: #ffffff;
+  
+  width: 200px;
+  text-align: center;
+  font-family: "Tangerine";
+  transition: transform 0.3s ease-in-out;
+  height: 240px;   
+        }
+        .twelve:hover{
+            transform: scale(1.05); /* zoom effect on hover */
+box-shadow: 0 4px 20px rgba(255, 255, 255, 0.6); 
+        }
+        .twelve img{
+             width: 175px;
+             height: 120px;
+            border-radius: 8%;
+            padding-top: 5px;
+
+        }
+        
+    </style>
+</head>
+<body>
+   
+    <h1 style="color: azure;">"Choose your magic Spell"</h1>
+    
+  
+      
+       <div class="container">
+            <div class="one">
+            <img src="/image/Expecto.jpg" alt="spell">
+            <h2>The Patronus charm</h2>
+            <h3 style="font-size: smaller;"><a href="/Charm1.html" style="color: silver;">{Expecto Patronum}</a></h3>
+        </div>
+        <div class="two">
+            <img src="/image/Animation.jpg" alt="spell">
+            <h2>The AnimationCharm</h2>
+            <h3 style="font-size: smaller;"><a href="/charm2.html" style="color: silver;">{Piertotem Locomotor}</a></h3>
+        </div>
+        <div class="three">
+            <img src="/image/Lock.jpg" alt="spell">
+            <h2><a href="/Charm3.html" style="color: silver;">The Locking Charm</a></h2>
+        </div>
+        
+            <div class="four">
+            <img src="/image/Killing.jpg" alt="spell">
+            <h2><a href="/charm4.html" style="color: silver;">The Killing Charm</a></h2>
+        </div>
+        <div class="five">
+            <img src="/image/Prpairo.jpg" alt="spell">
+            <h2>The Mending Charm</h2>
+            <h3><a href="/charm5.html" style="color: silver;">{Reparo}</a></h3>
+        </div>
+        <div class="six">
+            <img src="/image/Fire.jpg" alt="spell">
+            <h2><a href="/Charm6.html" style="color: silver;">Fiendfyre</a></h2>
+        </div>
+        <div class="seven">
+            <img src="/image/Memory.jpg" alt="spell">
+            <h2>The Memory Charm</h2>
+            <h3><a href="/Charm7.html" style="color: silver;">{Obliviate}</a></h3>
+        </div>
+        <div class="eight">
+            <img src="/image/Spell.jpg" alt="spell">
+            <h2>The Freezing Charm</h2>
+            <h3><a href="/Charm8.html" style="color: silver;">{Immobulus}</a></h3>
+        </div>
+        <div class="nine">
+            <img src="/image/Priori.jpg" alt="spell">
+            <h2><a href="/Charm9.html" style="color: silver;">Priori Incantatem</a></h2>
+        </div>
+        <div class="ten">
+            <img src="/image/Genny.jpg" alt="spell">
+            <h2>The reductorCurse</h2>
+            <h3><a href="/Charm10.html" style="color: silver;">{Reducto}</a></h3>
+        </div>
+        <div class="eleven">
+            <img src="/covwer4.jpg" alt="spell">
+            
+            <h3><a href="/Charm11.html" style="color: silver;">{Riddikulus}</a></h3>
+        </div>
+        <div class="twelve">
+            <img src="/image/Last.jpg" alt="spell">
+            
+            <h3><a href="/Charm12.html" style="color: silver;">{Lumos}</a></h3>
+        </div>
+        </div>
+
+   
+
+</body>
+</html>
