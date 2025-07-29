@@ -15,7 +15,7 @@
         .Tbox {
             color: rgb(209, 247, 247);
             height:550px;
-            width: 50%;
+            width: 600px;
             border: 2px solid navy;
             float: left;
             padding: 3px;
@@ -28,6 +28,19 @@
             margin-top: 100px;
             font-size: large;
             
+        }
+        @media(max-width:600px){
+                 .Tbox{width:90%;
+                       padding:10px;
+                      }
+                 .img img{
+                          width:100%;
+                          height:auto;
+                 }
+                 .tab {
+                          text-align:center;
+                          font-size:14px;
+                 }
         }
         .Tbox a{
           text-decoration: none;
