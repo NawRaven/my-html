@@ -112,4 +112,21 @@ z-index: 0; filter: blur(15px);
 @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
 
 /* Magic sparkles */ @keyframes sparkle { 0%, 100% { opacity: 0.5; transform: translateY(0); } 50% { opacity: 1; transform: translateY(-10px); } }
+media screen and (max-width: 768px) {
+  .Tbox, .img img {
+    width: 90% ;
+    height: auto ;
+    margin: 20px auto;
+    float: none ;
+    display:block;
+  }
+
+  .tab {
+    width: 80px ;
+    font-size: 14px;
+    padding: 5px;
+    margin: 10px auto;
+  }
+}
         
+
