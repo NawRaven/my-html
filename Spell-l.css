@@ -29,19 +29,7 @@
             font-size: large;
             
         }
-        @media(max-width:600px){
-                 .Tbox{width:90%;
-                       padding:10px;
-                      }
-                 .img img{
-                          width:100%;
-                          height:auto;
-                 }
-                 .tab {
-                          text-align:center;
-                          font-size:14px;
-                 }
-        }
+       
         .Tbox a{
           text-decoration: none;
         }
@@ -112,7 +100,7 @@ z-index: 0; filter: blur(15px);
 @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
 
 /* Magic sparkles */ @keyframes sparkle { 0%, 100% { opacity: 0.5; transform: translateY(0); } 50% { opacity: 1; transform: translateY(-10px); } }
-media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .Tbox, .img img {
     width: 90% ;
     height: auto ;
@@ -129,4 +117,5 @@ media screen and (max-width: 768px) {
   }
 }
         
+
 
